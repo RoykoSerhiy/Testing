@@ -1,0 +1,157 @@
+﻿<repository
+name="RecBinTestRepository"
+id="0486c89c-900b-4ff8-8192-5062da102b42"
+rxversion="5.3.0.22324">
+	<codegen
+	classname="RecBinTestRepository"
+	namespace="RecBinTest"/>
+	<rootfolder
+	name="Root"
+	id="280acea8-7a7d-4acf-8384-f2b14b36291c"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Explorer"
+		id="caf55ebd-2ec1-4f6e-a02a-3bfbebb97223"
+		searchtimeout="30000ms"
+		capname="desktop"
+		refpath="/desktop[@processname='explorer']"
+		addcaps="desktop,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Корзина"
+			id="bdc78713-8f85-447b-8351-05ca8a707d50"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/desktop[@processname='explorer']/container/list/listitem[@text='Корзина']"
+			addcaps="listitem,nativeitem,checkable"
+			refimgid="08fab33e-f6d1-420d-9d34-5eb9f5b0bf21">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACEklEQVQ4T4WTb0gTcRyHFXodKL2uN0IQGPqqoFeKRYEj3xQOJTDY
+FBljgwgJBpNFvhpEsF4tZLgtYfQmqNhoishweWvbSca1OcE/gxizxtW08859uu/vvNPrhA4e7rjf
+Pc++d7tra/vPdiv+E/9SqVRg0ha4XXyu1DG/tGm5eHZNxBwvsvOP0wquzXxDKBSCEbk8LRgSHcfz
+DSwKDaClWKAIBbxeL3ie16YgKbUH0L6l/DagSN9bmXHjSc44f2aAyXKd0TN3YIjNQ6AqQguoayQT
+L7suIplMnkxQ3K6idfidQQHadHlDnU4Xc1VgffQSxGdXkeztQCaTAbuFI2nLgAKSevv0ywTJn3YB
+kuO89hBJttvtiEQix4E/Gzg6hgK6/OLpGJOfLzeNKdrHc7DZbPD5fCcT1Pe+QNnX0AMXzreD0Men
+Pa1TwOFwmJ9Beq2gLhYZFKBxT0MPUV+ngOVv/MhzkJurDAqs7GgBEnUoQO+IJdA58h7p4gqUXxnG
+aUn+8QE6TB56xzBNQAEi93URsrgAuaFKhCr3TC2Z6O6fwN17DxEMBlEul7X3gORzd96gY/C1Rbh+
+8wGGR8bgcrng8Xjg9/sRjUaRz+chiqIWmImu4sr9V+i9/QgDQ5NwOp1wu91szEAggEQigWw2i0Kh
+AEEQUKvVIEmS+WtMpVIIh8OIxWKgY47j2MdSKpXMF57x6f8FEx+k/ukKZD4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Корзина"
+		id="31ffcb41-3bc4-4d5f-959b-9f7fd86cc68a"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Корзина']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Button47C4C3B2499845CEA2C035BD8A96C"
+			id="e88ee384-d7bd-42ba-93a4-348f3784a866"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/toolbar/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']"
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			refimgid="8c88d0c6-6fe4-4638-aa3a-eebf6acd86e8">
+				/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']
+			</item>
+			<item
+			name="Закрыть"
+			id="71695be0-0f1e-425f-a98b-aee409b93b20"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Корзина']/titlebar/button[@accessiblename='Закрыть']"
+			addcaps="button,accessible"
+			refimgid="66a91b16-aaab-4ff9-b344-07d2f74384c6">
+				/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']/?/?/button[@accessiblename='&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;']
+			</item>
+			<item
+			name="ListItem0"
+			id="8d8fc8a6-b510-41f1-be9c-0b4b95823e1d"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='1']/container[@caption='ShellView']/list[@name='Просмотр элементов']/listitem[@automationid='0']"
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationvalue"
+			refimgid="592e6895-797e-45d0-bb8b-70507fb25546">
+				/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']//element[@instance='1']/container[@caption='ShellView']/list[@name='&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088; &#1101;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1086;&#1074;']/listitem[@automationid='0']
+			</item>
+			<basepath>
+				/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAN+SURBVDhPXZLdb1JnHMe7ZEuWXe/CO/cn7Mbt
+Zkn/BzNNvJlubtS4zRgXo9U6Yp12W2eh5ZQXKS1USkXeCgjFQj2cQzkHDnB4KZZDOaWUUl5seWmL
+NSqc387hwqz7JU/yPE8+30+eJ/n29fETDocvBQgSw4PEAkmR31MUfSpABk77A34TjgdKOI53VlZW
+OgRBxEmSvCNkPsy40dGv9wZDVCa/nWLYo0A0+dLuxTEqlSZz2+Xyzm6jm9updvLl2vuX+e22I0hn
+DUuB1Jwb/aYnuTaqwGVmZ0dhcnASvR0s0TzIPRFAnpEgeboEw+p5uCFVw68PJmBwTA635BpO4/Z2
+bkqnIz3B75PaBJpIV7cO3kTp0iFJl48AZxuwstGEYL4JROEAlK4QjJnxBhpj6ql6G9BUuiZGdOs9
+wcgjw5A7lCgR1RZmD2VoF9Mknmf3wELlwL/RAJwXTC2vgtybajmwcBNjSxV3KFYScj3BMKI9a0XJ
+rRfFpsOGRTk9kS/aM22Y8NdAitVBF9sHU4oX8S/aab2GBSrdtKFk4a5s9kxP8MeE+iuDB93ybO4a
+1yqHrDnMwgMTC+cnayDStGBAXYRxawawXB2waBIW4kxB4O9KNF/3BPdGp05qXb68jc6x6Op6UrlY
+2L0wwYJIXQFjvAkXFZtwWbEO1lgVKgdvwBpJx3TOJVY8oviiJxCLxJ8hT12reiKRNi5HYGyxCufu
+04B4WPAw+4C82AeJsw7jriyw1T0wRlI0Mm8Pi/hcT6ASqT4Znnoi0/kjmTkv+U65zAseFuG6dg3+
+suXhF1UWvkMqoMdyUGq1wUkzsXuaeYVY3P/xhzLdVjweUC6iSSNKdQ1YFi6qG/CjNAk/qxj4QfkK
+Rm1bEC8eQPnwCGZ8ROSWfPbKsTaKZ2xfSsyLNJ5Y3/vb4HtriRThWawAcb4ThmAF3Hy5yEyR/0ID
+pCZX4ub0k1PHBCLV3OcjWtNq7fCIUdnx0qDKAtH8K6A2ahDkg9MLPtA7vWBw+V4L3GVk5sQxQb94
+5tMhZDrMFKuRarPNpAq1brbaAk8gDEq9+a07GAO21gBqbbMkcAJ/TMAfPrp0e2Tytz8lXV+Q6j52
+Pu+o5q3cQ7WOG5vSvVcZTNyc08MN/SPrCJzA/1/Qd3Vo+NsL1wa5WYuduy9TcsL+7MAV7gy/zl+9
+0bv76fodTuD+G/4XlbWNRWACeCoAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="УдалитьФайл"
+		id="2393bab1-7e79-4036-bec5-38c8fdb5d740"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Удалить файл']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonДа"
+			id="44536358-c1f1-463c-a1a8-4e4321b60091"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Удалить файл']/button[@text='Д&amp;а']"
+			addcaps="button,nativewindow"
+			refimgid="d0964369-d79a-48fe-89ef-7e0db7be7467">
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1092;&#1072;&#1081;&#1083;']/button[@text='&#1044;&amp;&#1072;']
+			</item>
+			<basepath>
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1092;&#1072;&#1081;&#1083;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJ9SURBVDhPxZPNTxNBGIf3b/HATU8eMByMISRe
+SExEoqYmqMiHoCFKxRsQjBoCpEFixYKGKIhA5GMRSlsoW9sAQrd0EaTbUqALCy39oKVdLAn8HAas
+iRGvTvLkPbzze96ZZIZh/vtycTerPLa7EL8UYMF04w9U/GH/n4eUHGos26uh2kqDypqGg4N9KIqS
+Ys5wHSdB5WuzFXCN52NuhGz8Cz5nLeIhM3aCRsQCnxGROxHytSC4+oqKqSCZ8CAZd2F3207gaVUi
+U6Qakdh6j7i/DbHNN4jKOkTXmxGVNAh7n9KBjMSrsac4SaAHSrgbCQKtwQ4a3NlopaFtqQmRFQ2C
+3jqEPDXYnK+A8EuQjE9ACR0HQ12IBzrIxLdk4mHwBQk2ILT0HAFXDfwLlZAFNXz2Egj6a2B8M+VI
+7ljp5MYpgVJp8+ARJ6LMKOAO+xV5fVaoujnkd/RQ+kxP4LXlwTl0FczyVBl+EEH3oohwco+yC8BP
+mN8HhiNAu3yEzneAen4DGdpRjOpLMTuYC8Y7cR/xCIdmhzslsMoxtIthvPwWQPXkOtQWH+UBJ1EO
+BcahkiOBx3YP0eAYnpFjC1sJcGsxNExLyGo1I1NHeG1GVosZuawblwZWKelaDobBIvDsFTCipRjb
+fhblpu/4KEag4QO40DyGQYsGrLkW/eS+vYYqZHfO4uInL9I/uHG2aRwjbAFmBnLAuMYL6cPI7hTw
+mJNRNLxEBSxXjzW+DKvTxVievI3Md44TBOQ5OvV5ONfqQLlZomRoTWjreoiZ/hzCZcoZrR35+hXK
+qToO/T2FkBfqkfonpUNLOK+boFQYvL8bxzuKBkScbrRQbvUupvo/Af6WjgSCrACkAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

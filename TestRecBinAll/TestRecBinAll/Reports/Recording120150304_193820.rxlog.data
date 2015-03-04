@@ -1,0 +1,257 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 19:38:34"
+	timestampiso="2015-03-04T17:38:34"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="10555a01380f8e6d"
+	totalerrorcount="1"
+	totalwarningcount="1"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.977"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.List1' at 630;395.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="TestRecBinAllRepository.Explorer.List11.List1"
+			id="9c373d38e4c64924a94c0074f652aa06"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.846"
+		level="Warn"
+		category="WinForms">
+			<message>
+				The control seems to be a Windows Forms control, but was not recognized as such, possibly due to a security limitation. UI element identification capabilities for this control may be limited.<br/>If this control is a WinForms control, please make sure that the automating process has the rights to access the automated application. Otherwise, please ignore this limitation.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3250<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="83"
+			loglvl="Warn"
+			itemindex="0"/>
+		</item>
+		<item
+		time="00:04.800"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;' at 75;18.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='Создать']"
+			fullname="TestRecBinAllRepository.Explorer1.Создать"
+			id="901e7968dde7446aae79fe29fcf5a733"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.958"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer2.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 69;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Текстовый документ']"
+			fullname="TestRecBinAllRepository.Explorer2.ТекстовыйДокумент"
+			id="c4b11f03756747e58e468353722ca020"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.072"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.List11.List1' at 834;466.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="TestRecBinAllRepository.Explorer.List11.List1"
+			id="9c373d38e4c64924a94c0074f652aa06"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.450"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.&#1053;&#1086;&#1074;&#1099;&#1081;&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 24;47.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Новый текстовый документ']"
+			fullname="TestRecBinAllRepository.Explorer.List11.НовыйТекстовыйДокумент"
+			id="571ead8b4d554169851b8242e0c4b852"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.334"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;' at 62;4.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='Удалить']"
+			fullname="TestRecBinAllRepository.Explorer1.Удалить"
+			id="5541cadbf9754af7b539be36927467db"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:11.492"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;&#1060;&#1072;&#1081;&#1083;.Button&#1044;&#1072;' at 36;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Удалить файл']/button[@text='Д&amp;а']"
+			fullname="TestRecBinAllRepository.УдалитьФайл.ButtonДа"
+			id="ac84169c50b74c6584270c5f169e1f98"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="106"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.491"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Explorer.List11.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;' at 56;43.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Корзина']"
+			fullname="TestRecBinAllRepository.Explorer.List11.Корзина"
+			id="577b8aef55fa4aadb2113f65f0947d3a"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="110"
+			itemindex="7"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:14.141"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.Button47C4C3B2499845CEA2C035BD8A96C' at 57;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']"
+			fullname="TestRecBinAllRepository.Корзина.Button47C4C3B2499845CEA2C035BD8A96C"
+			id="dce74941667644ecbd575d345eb60cd3"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="114"
+			itemindex="8"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:17.040"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_193820_0997a89f_trace.jpg"
+		errthumb=".\Recording120150304_193820_0997a89f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item '&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;&#1060;&#1072;&#1081;&#1083;.Button&#1044;&#1072;' at 46;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Удалить файл']/button[@text='Д&amp;а']"
+			fullname="TestRecBinAllRepository.УдалитьФайл.ButtonДа"
+			id="ac84169c50b74c6584270c5f169e1f98"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="118"
+			itemindex="9"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:18.258"
+		level="Info"
+		category="Validation"
+		errimg=".\Recording120150304_193820_5c170bb3_trace.jpg"
+		errthumb=".\Recording120150304_193820_5c170bb3_trace_thumb.jpg">
+			<message>
+				Validating NotExists on item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.ListItem0'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='0']"
+			fullname="TestRecBinAllRepository.Корзина.ListItem0"
+			id="fd84eb89ae4446418a3d1c691d7a230b"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="122"
+			itemindex="10"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:34.282"
+		level="Error"
+		category="User"
+		errimg=".\Recording120150304_193820_1353c52d_trace.jpg"
+		errthumb=".\Recording120150304_193820_1353c52d_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

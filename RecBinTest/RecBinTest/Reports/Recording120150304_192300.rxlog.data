@@ -1,0 +1,138 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 19:23:22"
+	timestampiso="2015-03-04T17:23:22"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1e47421bbd3863e0"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:01.074"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Explorer.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;' at 53;41.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Корзина']"
+			fullname="RecBinTestRepository.Explorer.Корзина"
+			id="bdc787138f85447b835105ca8a707d50"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.885"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.Button47C4C3B2499845CEA2C035BD8A96C' at 79;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']"
+			fullname="RecBinTestRepository.Корзина.Button47C4C3B2499845CEA2C035BD8A96C"
+			id="e88ee384d7bd42ba93a4348f3784a866"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.907"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;&#1060;&#1072;&#1081;&#1083;.Button&#1044;&#1072;' at 23;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Удалить файл']/button[@text='Д&amp;а']"
+			fullname="RecBinTestRepository.УдалитьФайл.ButtonДа"
+			id="44536358c1f1463ca1a84e4321b60091"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.122"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;' at 13;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']/?/?/button[@accessiblename='Закрыть']"
+			fullname="RecBinTestRepository.Корзина.Закрыть"
+			id="71695be00f1e425fa98baee409b93b20"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.474"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating NotExists on item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.ListItem0'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']//element[@instance='1']/container[@caption='ShellView']/list[@name='Просмотр элементов']/listitem[@automationid='0']"
+			fullname="RecBinTestRepository.Корзина.ListItem0"
+			id="8d8fc8a6b51041f1be9c0b4b95823e1d"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:11.127"
+		level="Success"
+		category="Validation">
+			<message>
+				Element for item 'RecBinTestRepository.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.ListItem0' does not exist (Failed to find item 'RecBinTestRepository.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.ListItem0'. No element found for path '/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']//element[@instance='1']/container[@caption='ShellView']/list[@name='&#1055;&#1088;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088; &#1101;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1086;&#1074;']/listitem[@automationid='0']' within 1m.).
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']//element[@instance='1']/container[@caption='ShellView']/list[@name='Просмотр элементов']/listitem[@automationid='0']"
+			fullname="RecBinTestRepository.Корзина.ListItem0"
+			id="8d8fc8a6b51041f1be9c0b4b95823e1d"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="99"
+			loglvl="Success"
+			itemindex="4"/>
+		</item>
+	</activity>
+</report>

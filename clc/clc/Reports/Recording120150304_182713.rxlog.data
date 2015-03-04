@@ -1,0 +1,58 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 18:27:29"
+	timestampiso="2015-03-04T16:27:29"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="3c50a7606b6b03a"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.977"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;.Calc.Button1' at 21;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Калькулятор']/?/?/container[@instance='1']/button[@controlid='93']"
+			fullname="clcRepository.Калькулятор.Calc.Button1"
+			id="b53c79b9ab74422f9aa1b9cfe402309d"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\clc\clc\Recording1.cs"
+			codeline="82"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:14.407"
+		level="Error"
+		category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

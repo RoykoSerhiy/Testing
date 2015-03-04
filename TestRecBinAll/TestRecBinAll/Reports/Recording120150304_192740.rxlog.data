@@ -1,0 +1,99 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 19:27:54"
+	timestampiso="2015-03-04T17:27:54"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="133a536a6529d122"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'TestRecBinAllRepository.Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.830"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_192740_3e9ae1b2_trace.jpg"
+		errthumb=".\Recording120150304_192740_3e9ae1b2_trace_thumb.jpg">
+			<message>
+				Mouse Right Click item 'Explorer.List11.List1' at 595;366.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="TestRecBinAllRepository.Explorer.List11.List1"
+			id="6e2103f863ec4f24978095326072aa82"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.610"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_192740_9f23c29d_trace.jpg"
+		errthumb=".\Recording120150304_192740_9f23c29d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 81;1.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Текстовый документ']"
+			fullname="TestRecBinAllRepository.Explorer1.ТекстовыйДокумент"
+			id="b9d1f08009bf4e0e8360f8aa98c9d8e3"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:05.334"
+		level="Error"
+		category="Module"
+		errimg=".\Recording120150304_192740_0b62f98d_trace.jpg"
+		errthumb=".\Recording120150304_192740_0b62f98d_trace_thumb.jpg">
+			<message>
+				Failed to find item 'TestRecBinAllRepository.Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;'.<br/>No element found for path '/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;']' within 1m.
+			</message>
+			<metainfo
+			stacktrace="   в Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   в TestRecBinAll.TestRecBinAllRepositoryFolders.Explorer1AppFolder.get_ТекстовыйДокумент() в c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\TestRecBinAllRepository.cs:строка 344
+   в TestRecBinAll.Recording1.Ranorex.Core.Testing.ITestModule.Run() в c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs:строка 87
+   в Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="87"
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Текстовый документ']"
+			fullname="TestRecBinAllRepository.Explorer1.ТекстовыйДокумент"
+			id="b9d1f08009bf4e0e8360f8aa98c9d8e3"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="1"/>
+		</item>
+	</activity>
+</report>

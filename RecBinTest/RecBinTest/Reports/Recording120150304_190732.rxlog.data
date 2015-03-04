@@ -1,0 +1,84 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 19:07:51"
+	timestampiso="2015-03-04T17:07:51"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="138c3a877080f29c"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.842"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Explorer.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;' at 44;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Корзина']"
+			fullname="RecBinTestRepository.Explorer.Корзина"
+			id="0a4c354c3a844da4994f1da87fbaba62"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.331"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.Button7DDC12647E4D4F74BBC0D191987C8' at 91;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}']"
+			fullname="RecBinTestRepository.Корзина.Button7DDC12647E4D4F74BBC0D191987C8"
+			id="da41109cdf87416696677f61ec981dbd"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.802"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;' at 117;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Закрыть']"
+			fullname="RecBinTestRepository.Explorer1.Закрыть"
+			id="35cdbb3db3cf430b840a37edba6e772d"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

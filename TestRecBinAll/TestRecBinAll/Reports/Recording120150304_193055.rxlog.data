@@ -1,0 +1,138 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 19:31:12"
+	timestampiso="2015-03-04T17:31:12"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="e7a8b370608188"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:01.096"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.List1' at 522;336.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="TestRecBinAllRepository.Explorer.List11.List1"
+			id="621c7d4adf704690bf5f77584e3cc97a"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.502"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;' at 85;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='Создать']"
+			fullname="TestRecBinAllRepository.Explorer1.Создать"
+			id="fa8928a4ab5e41378907964ab915fe9d"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.556"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;' at 123;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='Создать']"
+			fullname="TestRecBinAllRepository.Explorer1.Создать"
+			id="fa8928a4ab5e41378907964ab915fe9d"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.523"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer2.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 69;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Текстовый документ']"
+			fullname="TestRecBinAllRepository.Explorer2.ТекстовыйДокумент"
+			id="87ad19eb62a14518be4f410eb5283ed5"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.573"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.List11.Edit' at 28;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/text[@class='Edit']"
+			fullname="TestRecBinAllRepository.Explorer.List11.Edit"
+			id="9785db5fef674f8f9bc7d9197792425c"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.918"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.List11.&#1053;&#1086;&#1074;&#1099;&#1081;&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 37;26.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Новый текстовый документ']"
+			fullname="TestRecBinAllRepository.Explorer.List11.НовыйТекстовыйДокумент"
+			id="d72b5bfdd1774d0f8f8afb81d92ccaa9"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\TestRecBinAll\TestRecBinAll\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

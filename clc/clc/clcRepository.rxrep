@@ -1,0 +1,90 @@
+﻿<repository
+name="clcRepository"
+id="c4202a93-bd3a-4242-a8ce-41a9c2e0c6b0"
+rxversion="5.3.0.22324">
+	<codegen
+	classname="clcRepository"
+	namespace="clc"/>
+	<rootfolder
+	name="Root"
+	id="c5c479d3-2633-457f-9cb5-7706cbe54bb8"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Калькулятор"
+		id="49e1f289-fd83-4cd4-aa72-49bcf992aa11"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Калькулятор']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="Calc"
+			id="46cb405a-9208-4feb-ae84-713166b5810c"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Калькулятор']/element[@class='CalcFrame']/container[@class='#32770' and @instance='1']"
+			addcaps="container,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Button2"
+				id="d907a940-0cc1-450d-a223-ba4a07d0dcd2"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Калькулятор']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='121']"
+				addcaps="button,nativewindow"
+				refimgid="82c164ca-2782-4a09-b665-dceeaf2709c7">
+					/form[@title='&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;']/?/?/container[@instance='1']/button[@controlid='121']
+				</item>
+				<item
+				name="Button"
+				id="73383b56-bf8e-423f-85bb-f62fb633e400"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Калькулятор']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='131']"
+				addcaps="button,nativewindow"
+				refimgid="9f162a12-c770-4939-a415-148918cde105">
+					/form[@title='&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;']/?/?/container[@instance='1']/button[@controlid='131']
+				</item>
+				<item
+				name="Button1"
+				id="b53c79b9-ab74-422f-9aa1-b9cfe402309d"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Калькулятор']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='93']"
+				addcaps="button,nativewindow"
+				refimgid="66d84d19-c917-4510-8ef1-ef95154f6f44">
+					/form[@title='&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;']/?/?/container[@instance='1']/button[@controlid='93']
+				</item>
+				<basepath>
+					/form[@title='&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;']/?/?/container[@instance='1']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKDSURBVDhPdZPrT9NgFMbx7/KLgopoRBM1xpAY
+o1ETQoyI9xgxkkBMCDenqCHjljFuY5EoZoLuAoRtsLENkeAC7dttbDBh3dZu3eh4fNuBX4pNnjxv
+P5zfeU7fnpKS/afOvNR0z7TE3x0NoHrYj9tGH24YvLjWt4CqbjeudDlx6cMMLuispLJt8slB3T+v
+HfvJczsiVrfSCFKx21mEeAlcQgJDz7/jIpZjKfyiOtf8lWgAtDvM/gjk8QoUTEcPl/kYDAshnH39
+BRqAEn3MvwExX8BuYQ8pqYBoSkbwTx7eiAQ7k4WQk9Hv5nCm8ZMWUDMSgIkCMhQg5vcQF2QwO7sI
+RHOYJVlYghmkJRm9FHD61ZgWUD3kx6ivmCCRKdD5d7GylYc7JOH7WgbjKyJNJaPHTVBeP6IF3Bn0
+qQCli0AhqnIFpGlsRUpxMiuj20Vw6rlRC7hlXMQwBXS5wuic5fCO6u00gW6aRYedRbuNQZttHXon
+wcmnBi3gJr1zNpGDO5KBnRWo0rCxKViZJKzrSToGj4nVbbi5JE486tMCrvd7sEYBNUMezIYE1Z0H
+zqXUd0swARdJouxBjxag/HFLWxIdYxMGTwwD3hiM3igG92VajGKKppgPpVB6X68FVPXMYy4sotUe
+xnY8jhYbp7rOUfSBhTD4jiMIxMTDAVf1LliJiIZJgmcTDF5aWDROETT/IGi3Ewx5NpDsKMHyZuZw
+gLIsk4yAxxOs2rHuM6N6vaXoemcxgT/2H8DljzO8jaMjOMJooWO0T4ehmwnj/VwEXc4I/S4bcBAB
+vqiI47V6XrMLFzsdTeffWPnK1m/qslQ0mFH+Yli987KHvWpsRUpxaa2+6QDwF1fdalmXFOpgAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

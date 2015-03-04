@@ -1,0 +1,110 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{6D511BEF-4A06-49C5-ACB8-0B444AAE7BF8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RecBinTest</RootNamespace>
+    <AssemblyName>RecBinTest</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>97afda03-3c23-47f7-88b2-a4becd9a3479</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>c38d3f8a-8e16-4dcd-bff5-7aeb818df292</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>28c82d89-d01a-4c19-bdd4-b7e697c3fd4e</id>
+    </Compile>
+    <Compile Include="RecBinTestRepository.cs">
+      <BoundTo>97afda03-3c23-47f7-88b2-a4becd9a3479</BoundTo>
+      <DependentUpon>RecBinTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>7c12f553-2139-42f6-bab0-597aaaebd705</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>449d90dc-7378-4a00-9e60-5e8cb49fb349</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>730f742b-dec9-4e1a-ae50-8a76073041d4</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>449d90dc-7378-4a00-9e60-5e8cb49fb349</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f074330a-7a8a-4503-99e7-93f2d99b2003</id>
+    </Compile>
+    <None Include="app.config">
+      <id>eec48aaa-6b60-42ce-b754-53f3c43af9c6</id>
+    </None>
+    <None Include="RecBinTestRepository.rximg">
+      <BoundTo>97afda03-3c23-47f7-88b2-a4becd9a3479</BoundTo>
+      <DependentUpon>RecBinTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>3cae5ec4-c49d-49bb-9b9a-d0b4cbcf7a33</id>
+    </None>
+    <None Include="RecBinTestRepository.rxrep">
+      <id>97afda03-3c23-47f7-88b2-a4becd9a3479</id>
+      <repoid>0486c89c-900b-4ff8-8192-5062da102b42</repoid>
+      <reporootid>280acea8-7a7d-4acf-8384-f2b14b36291c</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>97afda03-3c23-47f7-88b2-a4becd9a3479</BoundTo>
+      <id>449d90dc-7378-4a00-9e60-5e8cb49fb349</id>
+      <recordtableid>e3ddd088-bb88-4ec7-a193-2ab9d53a6084</recordtableid>
+    </None>
+    <Content Include="RecBinTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c3952e5b-fa1e-4004-8474-e05e6de5a1ef</id>
+    </Content>
+    <Content Include="RecBinTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>2dc05bb4-2b15-40d6-94ba-0ce11ea9d22f</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

@@ -1,0 +1,99 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 19:10:33"
+	timestampiso="2015-03-04T17:10:33"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="109cb5a1683aefd0"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'RecBinTestRepository.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.Button47C4C3B2499845CEA2C035BD8A96C'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.889"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_191019_2a7b3471_trace.jpg"
+		errthumb=".\Recording120150304_191019_2a7b3471_trace_thumb.jpg">
+			<message>
+				Mouse Left DoubleClick item 'Explorer.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;' at 53;41.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Корзина']"
+			fullname="RecBinTestRepository.Explorer.Корзина"
+			id="bdc787138f85447b835105ca8a707d50"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.219"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_191019_7472390f_trace.jpg"
+		errthumb=".\Recording120150304_191019_7472390f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.Button47C4C3B2499845CEA2C035BD8A96C' at 79;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']"
+			fullname="RecBinTestRepository.Корзина.Button47C4C3B2499845CEA2C035BD8A96C"
+			id="e88ee384d7bd42ba93a4348f3784a866"
+			timeout="60000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:39.050"
+		level="Error"
+		category="Module"
+		errimg=".\Recording120150304_191019_69ef0dca_trace.jpg"
+		errthumb=".\Recording120150304_191019_69ef0dca_trace_thumb.jpg">
+			<message>
+				Failed to find item 'RecBinTestRepository.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.Button47C4C3B2499845CEA2C035BD8A96C'.<br/>No element found for path '/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']' within 1m.
+			</message>
+			<metainfo
+			stacktrace="   в Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   в RecBinTest.RecBinTestRepositoryFolders.КорзинаAppFolder.get_Button47C4C3B2499845CEA2C035BD8A96C() в c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\RecBinTestRepository.cs:строка 221
+   в RecBinTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() в c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs:строка 87
+   в Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\RecBinTest\RecBinTest\Recording1.cs"
+			codeline="87"
+			type="repoitem"
+			path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']"
+			fullname="RecBinTestRepository.Корзина.Button47C4C3B2499845CEA2C035BD8A96C"
+			id="e88ee384d7bd42ba93a4348f3784a866"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="1"/>
+		</item>
+	</activity>
+</report>

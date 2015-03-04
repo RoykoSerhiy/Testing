@@ -1,0 +1,115 @@
+﻿<report>
+	<activity
+	user="Serhiy"
+	host="SERHIYPC"
+	rxversion="5.3.0.22324"
+	osversion="Windows 7 32bit"
+	runtimeversion="4.0.30319.17929"
+	procarch="32bit"
+	language="ru-RU"
+	screenresolution="1366x768"
+	timestamp="04.03.2015 10:49:47"
+	timestampiso="2015-03-04T08:49:47"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1b9fbe4e0621eb07"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:01.372"
+		level="Info"
+		category="Application">
+			<message>
+				Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\clc\clc\Recording1.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.997"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;.Calc.Button' at 16;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Калькулятор']/?/?/container[@instance='1']/button[@controlid='131']"
+			fullname="clcRepository.Калькулятор.Calc.Button"
+			id="73383b56bf8e423f85bbf62fb633e400"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\clc\clc\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.715"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;.Calc.Button1' at 21;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Калькулятор']/?/?/container[@instance='1']/button[@controlid='93']"
+			fullname="clcRepository.Калькулятор.Calc.Button1"
+			id="b53c79b9ab74422f9aa1b9cfe402309d"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\clc\clc\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.667"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;.Calc.Button' at 25;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Калькулятор']/?/?/container[@instance='1']/button[@controlid='131']"
+			fullname="clcRepository.Калькулятор.Calc.Button"
+			id="73383b56bf8e423f85bbf62fb633e400"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\clc\clc\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.603"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1050;&#1072;&#1083;&#1100;&#1082;&#1091;&#1083;&#1103;&#1090;&#1086;&#1088;.Calc.Button2' at 17;37.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Калькулятор']/?/?/container[@instance='1']/button[@controlid='121']"
+			fullname="clcRepository.Калькулятор.Calc.Button2"
+			id="d907a9400cc1450da223ba4a07d0dcd2"
+			timeout="90000"
+			codefile="c:\Users\Serhiy\Documents\Ranorex\RanorexStudio Projects\clc\clc\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

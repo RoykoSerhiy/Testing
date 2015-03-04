@@ -1,0 +1,344 @@
+﻿<repository
+name="TestRecBinAllRepository"
+id="cebd68eb-ff2d-4149-9603-2f4b920f88a5"
+rxversion="5.3.0.22324">
+	<codegen
+	classname="TestRecBinAllRepository"
+	namespace="TestRecBinAll"/>
+	<rootfolder
+	name="Root"
+	id="473dc27c-ad5d-434e-aacb-adf0b343248e"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Explorer"
+		id="7cee25f4-68a3-4f7a-91f7-5535a27d6e4a"
+		searchtimeout="30000ms"
+		capname="desktop"
+		refpath="/desktop[@processname='explorer']"
+		addcaps="desktop,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="List11"
+			id="a3219a73-a9d2-44be-9884-03baa71861a7"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/desktop[@processname='explorer']/container[@class='SHELLDLL_DefView']/list[@controlid='1']"
+			addcaps="list,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="List1"
+				id="9c373d38-e4c6-4924-a94c-0074f652aa06"
+				searchtimeout="30000ms"
+				capname="list"
+				refpath="/desktop[@processname='explorer']/container/list[@controlid='1']"
+				addcaps="list,nativewindow"
+				refimgid="c09ba8d6-059f-46e2-9c0f-08acaa5b5dca">
+					/desktop[@processname='explorer']/?/?/list[@controlid='1']
+				</item>
+				<item
+				name="Корзина"
+				id="577b8aef-55fa-4aad-b211-3f65f0947d3a"
+				searchtimeout="30000ms"
+				capname="listitem"
+				refpath="/desktop[@processname='explorer']/container/list/listitem[@text='Корзина']"
+				addcaps="listitem,nativeitem,checkable"
+				refimgid="7e70e40e-e84c-466a-b4f9-ca1dd9d67115">
+					/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']
+				</item>
+				<item
+				name="НовыйТекстовыйДокумент"
+				id="571ead8b-4d55-4169-851b-8242e0c4b852"
+				searchtimeout="30000ms"
+				capname="listitem"
+				refpath="/desktop[@processname='explorer']/container/list/listitem[@text='Новый текстовый документ']"
+				addcaps="listitem,nativeitem,checkable"
+				refimgid="3481ad77-6098-4b93-91d3-51c2e96e51ae">
+					/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='&#1053;&#1086;&#1074;&#1099;&#1081; &#1090;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;']
+				</item>
+				<basepath>
+					/desktop[@processname='explorer']/?/?/list[@controlid='1']
+				</basepath>
+			</folder>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACEklEQVQ4T4WTb0gTcRyHFXodKL2uN0IQGPqqoFeKRYEj3xQOJTDY
+FBljgwgJBpNFvhpEsF4tZLgtYfQmqNhoishweWvbSca1OcE/gxizxtW08859uu/vvNPrhA4e7rjf
+Pc++d7tra/vPdiv+E/9SqVRg0ha4XXyu1DG/tGm5eHZNxBwvsvOP0wquzXxDKBSCEbk8LRgSHcfz
+DSwKDaClWKAIBbxeL3ie16YgKbUH0L6l/DagSN9bmXHjSc44f2aAyXKd0TN3YIjNQ6AqQguoayQT
+L7suIplMnkxQ3K6idfidQQHadHlDnU4Xc1VgffQSxGdXkeztQCaTAbuFI2nLgAKSevv0ywTJn3YB
+kuO89hBJttvtiEQix4E/Gzg6hgK6/OLpGJOfLzeNKdrHc7DZbPD5fCcT1Pe+QNnX0AMXzreD0Men
+Pa1TwOFwmJ9Beq2gLhYZFKBxT0MPUV+ngOVv/MhzkJurDAqs7GgBEnUoQO+IJdA58h7p4gqUXxnG
+aUn+8QE6TB56xzBNQAEi93URsrgAuaFKhCr3TC2Z6O6fwN17DxEMBlEul7X3gORzd96gY/C1Rbh+
+8wGGR8bgcrng8Xjg9/sRjUaRz+chiqIWmImu4sr9V+i9/QgDQ5NwOp1wu91szEAggEQigWw2i0Kh
+AEEQUKvVIEmS+WtMpVIIh8OIxWKgY47j2MdSKpXMF57x6f8FEx+k/ukKZD4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer1"
+		id="71078cc4-9d07-41f4-bc40-db228950b602"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='explorer' and @class='#32768' and @instance='0']"
+		addcaps="contextmenu,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Создать"
+			id="901e7968-dde7-446a-ae79-fe29fcf5a733"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='explorer' and @class='#32768' and @instance='0']/contextmenu/menuitem[@accessiblename='Создать']"
+			addcaps="menuitem,accessible"
+			refimgid="a507570b-fb27-4bfc-b5c4-f6243dc73c89">
+				/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;']
+			</item>
+			<item
+			name="Удалить"
+			id="5541cadb-f975-4af7-b539-be36927467db"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Удалить']"
+			addcaps="menuitem,accessible"
+			refimgid="60d2e1ab-3f79-4bde-a536-2c853953cba6">
+				/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/contextmenu[@class='#32768' and @instance='0']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer2"
+		id="55d10cd1-ad03-404e-92b6-afcacbbdf084"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='explorer' and @class='#32768' and @instance='1']"
+		addcaps="contextmenu,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ТекстовыйДокумент"
+			id="c4b11f03-7567-47e5-8e46-8353722ca020"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='explorer' and @class='#32768' and @instance='1']/contextmenu/menuitem[@accessiblename='Текстовый документ']"
+			addcaps="menuitem,accessible"
+			refimgid="a096c02e-d9dd-4be9-9fd8-2e763dc745f0">
+				/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;']
+			</item>
+			<basepath>
+				/contextmenu[@class='#32768' and @instance='1']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="УдалитьФайл"
+		id="f4eb98e8-664d-4dc2-b68b-98b2bc500142"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Удалить файл']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonДа"
+			id="ac84169c-50b7-4c65-8427-0c5f169e1f98"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Удалить файл']/button[@text='Д&amp;а']"
+			addcaps="button,nativewindow"
+			refimgid="d228e257-f31f-4bb4-8a5a-370b987165b0">
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1092;&#1072;&#1081;&#1083;']/button[@text='&#1044;&amp;&#1072;']
+			</item>
+			<basepath>
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1092;&#1072;&#1081;&#1083;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJ9SURBVDhPxZPNTxNBGIf3b/HATU8eMByMISRe
+SExEoqYmqMiHoCFKxRsQjBoCpEFixYKGKIhA5GMRSlsoW9sAQrd0EaTbUqALCy39oKVdLAn8HAas
+iRGvTvLkPbzze96ZZIZh/vtycTerPLa7EL8UYMF04w9U/GH/n4eUHGos26uh2kqDypqGg4N9KIqS
+Ys5wHSdB5WuzFXCN52NuhGz8Cz5nLeIhM3aCRsQCnxGROxHytSC4+oqKqSCZ8CAZd2F3207gaVUi
+U6Qakdh6j7i/DbHNN4jKOkTXmxGVNAh7n9KBjMSrsac4SaAHSrgbCQKtwQ4a3NlopaFtqQmRFQ2C
+3jqEPDXYnK+A8EuQjE9ACR0HQ12IBzrIxLdk4mHwBQk2ILT0HAFXDfwLlZAFNXz2Egj6a2B8M+VI
+7ljp5MYpgVJp8+ARJ6LMKOAO+xV5fVaoujnkd/RQ+kxP4LXlwTl0FczyVBl+EEH3oohwco+yC8BP
+mN8HhiNAu3yEzneAen4DGdpRjOpLMTuYC8Y7cR/xCIdmhzslsMoxtIthvPwWQPXkOtQWH+UBJ1EO
+BcahkiOBx3YP0eAYnpFjC1sJcGsxNExLyGo1I1NHeG1GVosZuawblwZWKelaDobBIvDsFTCipRjb
+fhblpu/4KEag4QO40DyGQYsGrLkW/eS+vYYqZHfO4uInL9I/uHG2aRwjbAFmBnLAuMYL6cPI7hTw
+mJNRNLxEBSxXjzW+DKvTxVievI3Md44TBOQ5OvV5ONfqQLlZomRoTWjreoiZ/hzCZcoZrR35+hXK
+qToO/T2FkBfqkfonpUNLOK+boFQYvL8bxzuKBkScbrRQbvUupvo/Af6WjgSCrACkAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Корзина"
+		id="fc2d8f05-2804-4a58-84d4-05031aa0cc40"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Корзина']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Button47C4C3B2499845CEA2C035BD8A96C"
+			id="dce74941-6676-44ec-bd57-5d345eb60cd3"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/toolbar/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']"
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			refimgid="73e94855-4eaa-4189-8815-b93b95303cd3">
+				/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']/element[@class='ShellTabWindowClass']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{47C4C3B2-4998-45CE-A2C0-35BD8A96C726}']
+			</item>
+			<item
+			name="ListItem0"
+			id="fd84eb89-ae44-4641-8a3d-1c691d7a230b"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='1']/container[@caption='ShellView']/container[@class='DirectUIHWND']/listitem[@automationid='0']"
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationvalue"
+			refimgid="38f7d9e7-ccd0-44ba-a841-88944ff9ebc5">
+				/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']/element[@class='ShellTabWindowClass']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='0']
+			</item>
+			<basepath>
+				/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAN+SURBVDhPXZLdb1JnHMe7ZEuWXe/CO/cn7Mbt
+Zkn/BzNNvJlubtS4zRgXo9U6Yp12W2eh5ZQXKS1USkXeCgjFQj2cQzkHDnB4KZZDOaWUUl5seWmL
+NSqc387hwqz7JU/yPE8+30+eJ/n29fETDocvBQgSw4PEAkmR31MUfSpABk77A34TjgdKOI53VlZW
+OgRBxEmSvCNkPsy40dGv9wZDVCa/nWLYo0A0+dLuxTEqlSZz2+Xyzm6jm9updvLl2vuX+e22I0hn
+DUuB1Jwb/aYnuTaqwGVmZ0dhcnASvR0s0TzIPRFAnpEgeboEw+p5uCFVw68PJmBwTA635BpO4/Z2
+bkqnIz3B75PaBJpIV7cO3kTp0iFJl48AZxuwstGEYL4JROEAlK4QjJnxBhpj6ql6G9BUuiZGdOs9
+wcgjw5A7lCgR1RZmD2VoF9Mknmf3wELlwL/RAJwXTC2vgtybajmwcBNjSxV3KFYScj3BMKI9a0XJ
+rRfFpsOGRTk9kS/aM22Y8NdAitVBF9sHU4oX8S/aab2GBSrdtKFk4a5s9kxP8MeE+iuDB93ybO4a
+1yqHrDnMwgMTC+cnayDStGBAXYRxawawXB2waBIW4kxB4O9KNF/3BPdGp05qXb68jc6x6Op6UrlY
+2L0wwYJIXQFjvAkXFZtwWbEO1lgVKgdvwBpJx3TOJVY8oviiJxCLxJ8hT12reiKRNi5HYGyxCufu
+04B4WPAw+4C82AeJsw7jriyw1T0wRlI0Mm8Pi/hcT6ASqT4Znnoi0/kjmTkv+U65zAseFuG6dg3+
+suXhF1UWvkMqoMdyUGq1wUkzsXuaeYVY3P/xhzLdVjweUC6iSSNKdQ1YFi6qG/CjNAk/qxj4QfkK
+Rm1bEC8eQPnwCGZ8ROSWfPbKsTaKZ2xfSsyLNJ5Y3/vb4HtriRThWawAcb4ThmAF3Hy5yEyR/0ID
+pCZX4ub0k1PHBCLV3OcjWtNq7fCIUdnx0qDKAtH8K6A2ahDkg9MLPtA7vWBw+V4L3GVk5sQxQb94
+5tMhZDrMFKuRarPNpAq1brbaAk8gDEq9+a07GAO21gBqbbMkcAJ/TMAfPrp0e2Tytz8lXV+Q6j52
+Pu+o5q3cQ7WOG5vSvVcZTNyc08MN/SPrCJzA/1/Qd3Vo+NsL1wa5WYuduy9TcsL+7MAV7gy/zl+9
+0bv76fodTuD+G/4XlbWNRWACeCoAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

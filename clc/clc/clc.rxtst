@@ -1,0 +1,16 @@
+﻿<testsuite
+name="clc"
+rxversion="5.3.0.22324"
+id="93611c1a-01d3-4d98-b22d-06ab740d40ce">
+  <content>
+    <testcase name="TestCase" id="4a63ba4a-b50f-447e-a70e-c7a51006e5bc">
+      <testmodule name="Recording1" id="5fcdfd59-194a-4707-8e95-cd017698deb2" ref="f28a02db-63c7-4742-8fe3-1ff7bfbc1dfc" type="Recording"/>
+    </testcase>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="4a63ba4a-b50f-447e-a70e-c7a51006e5bc"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references/>
+</testsuite>
