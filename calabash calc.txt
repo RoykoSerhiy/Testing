@@ -1,0 +1,52 @@
+Features: Calculation
+	As a User I should be able to perform calculations
+
+Scenario: Add numbers
+When I press "alButton1"
+Then I see in "alTextBox" 1
+Then I press "alButtonAdd"
+And I see empty "alTextBox1"
+Then I press "alButton2"
+Then I see in "alTextBox" 2
+When I press "alButtonRes"
+Then I see in "alTextBox" result 3
+Then I press "alButtonClear"
+And I see empty "alTextBox" 
+
+Scenario: Substrucr numbers
+When I press "alButton5"
+Then I see in "alTextBox" 5
+Then I press "alButtonSub"
+And I see empty "alTextBox1"
+Then I press "alButton2"
+Then I see in "alTextBox" 2
+When I press "alButtonRes"
+Then I see in "alTextBox" result 3
+Then I press "alButtonClear"
+And I see empty "alTextBox" 
+
+
+Scenario: Multyply numbers
+When I press "alButton2"
+Then I see in "alTextBox" 2
+Then I press "alButtonMult"
+And I see empty "alTextBox1"
+Then I press "alButton2"
+Then I see in "alTextBox" 2
+When I press "alButtonRes"
+Then I see in "alTextBox" result 4
+Then I press "alButtonClear"
+And I see empty "alTextBox" 
+
+
+Scenario: Division numbers
+When I press "alButton6"
+Then I see in "alTextBox" 6
+Then I press "alButtonDiv"
+And I see empty "alTextBox1"
+Then I press "alButton3"
+Then I see in "alTextBox" 3
+When I press "alButtonRes"
+Then I see in "alTextBox" result 2
+Then I press "alButtonClear"
+And I see empty "alTextBox" 
